@@ -51,8 +51,6 @@ Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-
 :root {
 	/* Fonts */
 	--font-heading: "Raleway", sans-serif;
@@ -90,7 +88,6 @@ html {
 
 body {
 	font-family: var(--font-body);
-	font-size: 1.4rem;
 	line-height: 1;
 	font-weight: 400;
 	color: var(--white);
