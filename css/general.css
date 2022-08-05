@@ -28,16 +28,18 @@ Letter spacing
 
 --- 02 COLORS ---
 Primary:
-
-Tints:
-
-Shades: 
-
+--dark-blue-1: hsl(217, 28%, 15%);
+--dark-blue-2: hsl(218, 28%, 13%);
+--dark-blue-3: hsl(216, 53%, 9%);
+--dark-blue-4: hsl(219, 30%, 18%); 
 
 Accent:
+--cyan: hsl(176, 68%, 64%);
+--blue: hsl(198, 60%, 50%);
+--light-red: hsl(0, 100%, 63%);
 
 Neutral:
-
+--white: hsl(0, 0%, 100%);
 
 --- 05 SHADOWS ---
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -110,10 +112,6 @@ body {
 	row-gap: 9.6rem;
 }
 
-.grid:not(:last-child) {
-	margin-bottom: 9.6rem;
-}
-
 .grid--2-cols {
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -139,23 +137,23 @@ body {
 .heading-tertiary {
 	font-weight: 700;
 	color: var(--white);
-	letter-spacing: -0.5px;
+	letter-spacing: -0.2px;
 }
 
 .heading-primary {
-	font-size: 5.2rem;
-	line-height: 1.05;
+	font-size: 3.6rem;
+	line-height: 1.2;
 	margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-	font-size: 4.4rem;
+	font-size: 3rem;
 	line-height: 1.2;
-	margin-bottom: 9.6rem;
+	margin-bottom: 3.2rem;
 }
 
 .heading-tertiary {
-	font-size: 3rem;
+	font-size: 2.4rem;
 	line-height: 1.2;
 	margin-bottom: 3.2rem;
 }
@@ -164,12 +162,11 @@ body {
 .btn:link,
 .btn:visited {
 	display: inline-block;
-
 	text-decoration: none;
 	font-size: 2rem;
 	font-weight: 700;
-	padding: 1.6rem 3.2rem;
-	border-radius: 9px;
+	padding: 1.6rem 7.5rem;
+	border-radius: 25px;
 
 	/* Only necessary for .btn */
 	border: none;
