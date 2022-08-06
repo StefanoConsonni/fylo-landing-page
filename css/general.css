@@ -112,6 +112,10 @@ body {
 	row-gap: 9.6rem;
 }
 
+/* .grid:not(:last-child) {
+	margin-bottom: 9.6rem;
+} */
+
 .grid--2-cols {
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -208,18 +212,22 @@ body {
 }
 
 /* HELPER/SETTINGS CLASSES */
-.margin-right-sm {
+.justify-start {
+	justify-self: start;
+}
+
+.justify-end {
+	justify-self: end;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* .margin-right-sm {
 	margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
 	margin-bottom: 4.8rem !important;
-}
-
-.center-text {
-	text-align: center;
-}
-
-.fw-700 {
-	font-weight: 700;
-}
+} */

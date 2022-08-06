@@ -1,4 +1,4 @@
-@import "./constants.css";
+@import "./general.css";
 
 /* 
 - Font sizes (px)
@@ -27,7 +27,7 @@
 }
 
 /**************************/
-/* NAVBAR */
+/* NAVIGATION LINKS */
 /**************************/
 
 .main-nav-list {
@@ -99,7 +99,6 @@
 	justify-content: center;
 	max-width: 65%;
 	margin: 0.8rem auto 1.6rem;
-	text-align: center;
 	z-index: 10;
 }
 
@@ -118,4 +117,39 @@
 	width: 100%;
 	z-index: -10;
 	margin-top: -26%;
+}
+
+/**************************/
+/* FEATURES SECTION */
+/**************************/
+
+.section-features {
+	margin: -0.3rem auto 0;
+	background-color: var(--dark-blue-2);
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 85%;
+	justify-self: center;
+}
+
+.feature-img {
+	margin-bottom: 3.2rem;
+}
+
+.feature-title {
+	font-size: 2.4rem;
+	font-weight: 700;
+	margin-bottom: 1.2rem;
+}
+
+.feature-text {
+	font-size: 1.8rem;
+	width: 70%;
+	line-height: 1.6;
 }
