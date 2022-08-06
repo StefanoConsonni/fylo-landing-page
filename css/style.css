@@ -89,6 +89,7 @@
 	width: 90%;
 	margin-left: 3.2rem;
 	padding-left: 2.4rem;
+	z-index: 10;
 }
 
 .hero-text-box {
@@ -99,6 +100,7 @@
 	max-width: 65%;
 	margin: 0.8rem auto 1.6rem;
 	text-align: center;
+	z-index: 10;
 }
 
 .hero-description {
@@ -106,4 +108,14 @@
 	line-height: 1.6;
 	margin-bottom: 3.2rem;
 	max-width: 70%;
+}
+
+.bg-img-box {
+	background-color: var(--dark-blue-1);
+}
+
+.img-bg-curvy-desktop {
+	width: 100%;
+	z-index: -10;
+	margin-top: -26%;
 }
