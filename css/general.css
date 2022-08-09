@@ -137,11 +137,11 @@ body {
 }
 
 .heading-primary,
-.heading-secondary,
-.heading-tertiary {
+.heading-secondary {
 	font-weight: 700;
 	color: var(--white);
 	letter-spacing: -0.2px;
+	font-family: var(--font-heading);
 }
 
 .heading-primary {
@@ -152,12 +152,6 @@ body {
 
 .heading-secondary {
 	font-size: 3rem;
-	line-height: 1.2;
-	margin-bottom: 3.2rem;
-}
-
-.heading-tertiary {
-	font-size: 2.4rem;
 	line-height: 1.2;
 	margin-bottom: 3.2rem;
 }
@@ -190,19 +184,21 @@ body {
 	background-color: var(--cyan);
 }
 
-.link:link,
+/* .link:link,
 .link:visited {
 	display: inline-block;
-	color: var(--white);
+	color: var(--cyan);
 	text-decoration: none;
-	padding-bottom: 2px;
+	padding-bottom: 0.4rem;
+	border-bottom: solid 1.5px var(--cyan);
 	transition: all 0.3s;
 }
 
 .link:hover,
 .link:active {
-	font-weight: 700;
-}
+	color: var(--white);
+	border-bottom: solid 1.5px var(--white);
+} */
 
 *:focus {
 	outline: none;
@@ -212,6 +208,10 @@ body {
 }
 
 /* HELPER/SETTINGS CLASSES */
+.d-flex {
+	display: flex;
+}
+
 .justify-start {
 	justify-self: start;
 }
