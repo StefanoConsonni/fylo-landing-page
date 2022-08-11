@@ -244,3 +244,61 @@
 /**************************/
 /* TESTIMONIALS SECTION */
 /**************************/
+
+.section-testim {
+	background-color: var(--dark-blue-2);
+	align-items: center;
+	padding: 2.4rem 9.6rem;
+	position: relative;
+}
+
+.img-quotes {
+	position: absolute;
+	z-index: 5;
+	top: 8.6rem;
+	left: 8.8rem;
+}
+/*  24%, 27%, 32%*/
+
+.card-testim {
+	background-color: var(--dark-blue-4);
+	z-index: 10;
+	border-radius: 5px;
+	column-gap: 0.8rem;
+	padding: 2.4rem;
+	margin-top: 9.6rem;
+	margin-bottom: 9.6rem;
+	box-shadow: 9px 9px 8px 1px rgba(32, 36, 44, 0.73);
+	-webkit-box-shadow: 9px 9px 8px 1px rgba(32, 36, 44, 0.73);
+	-moz-box-shadow: 9px 9px 8px 1px rgba(32, 36, 44, 0.73);
+}
+
+.card-testim-text {
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+.testim-description {
+	display: flex;
+	align-items: center;
+	margin-top: 1.6rem;
+}
+
+.card-testim-img {
+	height: 4.8rem;
+	width: 4.8rem;
+	border-radius: 50%;
+}
+
+.testim-details {
+	margin-left: 1.2rem;
+}
+
+.testim-name {
+	font-size: 1.2rem;
+	margin-bottom: 0.8rem;
+}
+
+.testim-role {
+	font-size: 1rem;
+}

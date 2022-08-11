@@ -231,3 +231,7 @@ body {
 .margin-bottom-md {
 	margin-bottom: 4.8rem !important;
 } */
+
+.fw-700 {
+	font-weight: 700;
+}
