@@ -14,6 +14,10 @@
 		<!-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 		<link rel="manifest" href="manifest.webmanifest" /> -->
 
+		<!-- Icons -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -149,15 +153,61 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="section-cta">
+				<h2>Get early access today</h2>
+				<p>
+					It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help
+					you.
+				</p>
+
+				<form class="cta-form" name="sign-up" netlify>
+					<div>
+						<input class="cta-email-input" id="email" type="email" placeholder="email@example.com" name="email" required />
+						<button class="btn btn--full cta-button">Get Started For Free</button>
+					</div>
+				</form>
+			</section>
 		</main>
 
-		<!--  
-		   
-		   Get early access today It only takes a minute to sign up and our free
-		starter tier is extremely generous. If you have any questions, our support team would be happy to help you. Get Started For Free Lorem ipsum dolor sit amet,
-		consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua +1-543-123-4567 example@fylo.com About Us Jobs Press Blog
-		Contact Us Terms Privacy -->
+		<footer class="footer">
+			<a href="#">
+				<img class="logo" src="images/logo.svg" alt="Fylo company logo" />
+			</a>
+			<div class="footer-container grid grid--footer">
+				<address class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</address>
+				<div class="phone-email">
+					<a class="footer-link" href="tel:+1-543-123-4567">+1-543-123-4567</a><br />
+					<a class="footer-link" href="mailto:hello@fylo.com">hello@fylo.com</a>
+				</div>
+				<nav class="nav-col">
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">About Us</a></li>
+						<li><a class="footer-link" href="#">Jobs</a></li>
+						<li><a class="footer-link" href="#">Press</a></li>
+						<li><a class="footer-link" href="#">Blog</a></li>
+					</ul>
+				</nav>
+				<nav class="nav-col">
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">Contact Us</a></li>
+						<li><a class="footer-link" href="#">Terms</a></li>
+						<li><a class="footer-link" href="#">Privacy</a></li>
+					</ul>
+				</nav>
 
-		<footer></footer>
+				<ul class="social-links">
+					<li>
+						<a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+					</li>
+					<li>
+						<a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+					</li>
+					<li>
+						<a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
