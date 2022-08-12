@@ -35,7 +35,7 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header d-flex">
 			<a href="#">
 				<img class="logo" src="images/logo.svg" alt="Fylo company logo" />
 			</a>
@@ -51,15 +51,15 @@
 
 		<main>
 			<section class="section-hero">
-				<div class="hero">
+				<div class="hero d-flex">
 					<div class="hero-img-box">
 						<img src="images/illustrations/illustration-intro.png" class="hero-img" alt="People manually managing documents in a folder" />
 					</div>
 
 					<div class="hero-text-box text-center">
-						<h1 class="heading-primary">All your files in one secure location, accessible anywhere.</h1>
+						<h1 class="heading-primary">Al your files in one secure location, accessible anywhere.</h1>
 						<p class="hero-description">
-							Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and
+							Fylo stores all your most impirtant files in one secure location. Access them wherever you need, share and collaborate with friends family, and
 							co-workers.
 						</p>
 						<a href="#cta" class="btn btn--full">Get Started</a>
@@ -100,7 +100,7 @@
 				</div>
 			</section>
 
-			<section class="section-how">
+			<section class="section-how d-flex">
 				<img class="how-img" src="images/illustrations/illustration-stay-productive.png" alt="three people passing files to each other" />
 				<div class="how-text-box">
 					<h2 class="heading-primary how-heading">Stay productive, wherever you are</h2>
@@ -154,32 +154,40 @@
 				</div>
 			</section>
 
-			<section class="section-cta">
-				<h2>Get early access today</h2>
-				<p>
-					It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help
-					you.
-				</p>
+			<section class="section-cta d-flex">
+				<div class="container-cta text-center">
+					<h2 class="heading-secondary">Get early access today</h2>
+					<p class="cta-text">
+						It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to
+						help you.
+					</p>
 
-				<form class="cta-form" name="sign-up" netlify>
-					<div>
+					<form class="cta-form d-flex" name="sign-up" netlify>
 						<input class="cta-email-input" id="email" type="email" placeholder="email@example.com" name="email" required />
-						<button class="btn btn--full cta-button">Get Started For Free</button>
-					</div>
-				</form>
+						<button class="cta-button fw-700" type="">Get Started For Free</button>
+					</form>
+				</div>
 			</section>
 		</main>
 
 		<footer class="footer">
 			<a href="#">
-				<img class="logo" src="images/logo.svg" alt="Fylo company logo" />
+				<img class="logo footer-logo" src="images/logo.svg" alt="Fylo company logo" />
 			</a>
 			<div class="footer-container grid grid--footer">
-				<address class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</address>
+				<address class="address">
+					<img src="images/icons/icon-location.svg" alt="Location pin icon" />
+					<span>623 Harrison St., 2nd Floor, San Francisco, CA 9410</span>
+				</address>
+
 				<div class="phone-email">
-					<a class="footer-link" href="tel:+1-543-123-4567">+1-543-123-4567</a><br />
+					<span><img src="images/icons/icon-phone.svg" alt="Phone icon" /></span>
+					<a class="footer-link" href="tel:+1-543-123-4567">+1-543-123-4567</a>
+					<br />
+					<span><img src="images/icons/icon-email.svg" alt="Email icon" /></span>
 					<a class="footer-link" href="mailto:hello@fylo.com">hello@fylo.com</a>
 				</div>
+
 				<nav class="nav-col">
 					<ul class="footer-nav">
 						<li><a class="footer-link" href="#">About Us</a></li>
@@ -188,6 +196,7 @@
 						<li><a class="footer-link" href="#">Blog</a></li>
 					</ul>
 				</nav>
+
 				<nav class="nav-col">
 					<ul class="footer-nav">
 						<li><a class="footer-link" href="#">Contact Us</a></li>

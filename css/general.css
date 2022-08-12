@@ -149,17 +149,19 @@ body {
 .heading-secondary {
 	font-size: 3rem;
 	line-height: 1.2;
-	margin-bottom: 3.2rem;
+	margin-bottom: 1.6rem;
+	font-family: var(--font-heading);
 }
 
 .btn,
 .btn:link,
 .btn:visited {
 	display: inline-block;
+	width: 40%;
 	text-decoration: none;
 	font-size: 2rem;
 	font-weight: 700;
-	padding: 1.6rem 7.5rem;
+	padding: 1.6rem 3.2rem;
 	border-radius: 25px;
 
 	/* Only necessary for .btn */
@@ -171,7 +173,7 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-	background-color: var(--blue);
+	background-image: linear-gradient(to right, #65e2d9 2%, #339ecc 60%);
 	color: var(--white);
 }
 
