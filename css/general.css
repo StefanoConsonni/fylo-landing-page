@@ -153,40 +153,22 @@ body {
 	font-family: var(--font-heading);
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-	display: inline-block;
-	width: 40%;
-	text-decoration: none;
-	font-size: 2rem;
-	font-weight: 700;
-	padding: 1.6rem 3.2rem;
-	border-radius: 25px;
-
-	/* Only necessary for .btn */
-	border: none;
-	cursor: pointer;
-	font-family: inherit;
-	transition: all 0.3s;
-}
-
-.btn--full:link,
-.btn--full:visited {
-	background-image: linear-gradient(to right, #65e2d9 2%, #339ecc 60%);
-	color: var(--white);
-}
-
-.btn--full:hover,
-.btn--full:active {
-	background-color: var(--cyan);
-}
-
 *:focus {
 	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(114, 128, 151, 0.3);
 	/* outline: 4px dotted #e67e22; */
 	/* outline-offset: 8px; */
-	box-shadow: 0 0 0 0.8rem rgba(114, 128, 151, 0.3);
+}
+
+.btn {
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	background-color: var(--blue);
+	color: var(--white);
+	transition: all 0.3s;
 }
 
 /***************************/
@@ -219,4 +201,8 @@ body {
 
 .fw-700 {
 	font-weight: 700;
+}
+
+.list-style-none {
+	list-style: none;
 }

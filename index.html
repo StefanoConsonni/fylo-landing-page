@@ -62,7 +62,7 @@
 							Fylo stores all your most impirtant files in one secure location. Access them wherever you need, share and collaborate with friends family, and
 							co-workers.
 						</p>
-						<a href="#cta" class="btn btn--full">Get Started</a>
+						<a href="#cta" class="btn btn-hero">Get Started</a>
 					</div>
 				</div>
 			</section>
@@ -71,7 +71,7 @@
 				<img class="img-bg-curvy-desktop" src="images/bg-curvy-desktop.svg" alt="background image of a blue wave" />
 			</div>
 
-			<section class="section-features grid grid--2-cols">
+			<section class="section-features grid grid--2-cols" id="features">
 				<div class="feature justify-end">
 					<img class="feature-img" src="images/icons/icon-access-anywhere.svg" alt="a computer and a smartphone" />
 					<p class="feature-title">Access your files, anywhere</p>
@@ -154,7 +154,7 @@
 				</div>
 			</section>
 
-			<section class="section-cta d-flex">
+			<section class="section-cta d-flex" id="cta">
 				<div class="container-cta text-center">
 					<h2 class="heading-secondary">Get early access today</h2>
 					<p class="cta-text">
@@ -164,7 +164,7 @@
 
 					<form class="cta-form d-flex" name="sign-up" netlify>
 						<input class="cta-email-input" id="email" type="email" placeholder="email@example.com" name="email" required />
-						<button class="cta-button fw-700" type="">Get Started For Free</button>
+						<button class="btn btn-cta" type="">Get Started For Free</button>
 					</form>
 				</div>
 			</section>
@@ -174,22 +174,33 @@
 			<a href="#">
 				<img class="logo footer-logo" src="images/logo.svg" alt="Fylo company logo" />
 			</a>
+
 			<div class="footer-container grid grid--footer">
-				<address class="address">
-					<img src="images/icons/icon-location.svg" alt="Location pin icon" />
-					<span>623 Harrison St., 2nd Floor, San Francisco, CA 9410</span>
+				<address class="address d-flex">
+					<img class="address-icon" src="images/icons/icon-location.svg" alt="Location pin icon" />
+					<p class="address-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 				</address>
 
-				<div class="phone-email">
-					<span><img src="images/icons/icon-phone.svg" alt="Phone icon" /></span>
-					<a class="footer-link" href="tel:+1-543-123-4567">+1-543-123-4567</a>
+				<div class="phone-email d-flex">
+					<span
+						><img class="phone-email-icon" src="images/icons/icon-phone.svg" alt="Phone icon" /><a
+							class="footer-link phone-email-text"
+							href="tel:+1-543-123-4567"
+							>+1-543-123-4567</a
+						></span
+					>
 					<br />
-					<span><img src="images/icons/icon-email.svg" alt="Email icon" /></span>
-					<a class="footer-link" href="mailto:hello@fylo.com">hello@fylo.com</a>
+					<span
+						><img class="phone-email-icon" src="images/icons/icon-email.svg" alt="Email icon" /><a
+							class="footer-link phone-email-text"
+							href="mailto:hello@fylo.com"
+							>hello@fylo.com</a
+						></span
+					>
 				</div>
 
 				<nav class="nav-col">
-					<ul class="footer-nav">
+					<ul class="footer-nav list-style-none">
 						<li><a class="footer-link" href="#">About Us</a></li>
 						<li><a class="footer-link" href="#">Jobs</a></li>
 						<li><a class="footer-link" href="#">Press</a></li>
@@ -198,14 +209,14 @@
 				</nav>
 
 				<nav class="nav-col">
-					<ul class="footer-nav">
+					<ul class="footer-nav list-style-none">
 						<li><a class="footer-link" href="#">Contact Us</a></li>
 						<li><a class="footer-link" href="#">Terms</a></li>
 						<li><a class="footer-link" href="#">Privacy</a></li>
 					</ul>
 				</nav>
 
-				<ul class="social-links">
+				<ul class="social-links d-flex list-style-none">
 					<li>
 						<a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
 					</li>
