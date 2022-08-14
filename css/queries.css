@@ -38,10 +38,6 @@
 		column-gap: 3.2rem;
 		row-gap: 6.4rem;
 	}
-
-	/* .footer-nav {
-		gap: 1.6rem;
-	} */
 }
 
 /**************************/
@@ -103,7 +99,7 @@
 	.img-quotes {
 		width: 5.5rem;
 		top: 4.2rem;
-		left: 17.4rem;
+		left: 20rem;
 	}
 
 	.section-testim {
@@ -144,7 +140,6 @@
 
 	.phone-email-icon {
 		width: 1.7rem;
-		/* margin-right: ; */
 	}
 
 	.phone-email-text {
@@ -177,36 +172,77 @@
 /*********************************/
 
 @media (max-width: 44em) {
-	/* .grid--3-cols,
-	.grid--4-cols {
-		grid-template-columns: repeat(2, 1fr);
+	.hero-img {
+		width: 55%;
 	}
 
-	.diets {
-		grid-column: 1 / -1;
-		justify-self: center;
+	.hero-text-box {
+		max-width: 90%;
 	}
 
-	.heading-secondary {
-		margin-bottom: 4.8rem;
+	.hero-description {
+		max-width: 82%;
 	}
 
-	.pricing-plan {
-		width: 100%;
+	.section-how {
+		flex-direction: column;
 	}
 
-	.grid--footer {
-		grid-template-columns: repeat(6, 1fr);
+	.how-img {
+		width: 70%;
 	}
 
-	.logo-col,
-	.address-col {
-		grid-column: span 3;
+	.how-text-box {
+		width: 95%;
+		margin-top: 4.8rem;
 	}
 
-	.nav-col {
-		grid-row: 1;
-		grid-column: span 2;
-		margin-bottom: 3.2rem;
-	} */
+	.how-heading {
+		width: 95%;
+	}
+
+	.img-quotes {
+		width: 5.2rem;
+		top: 4.2rem;
+		left: 10.5rem;
+	}
+
+	.card-testim {
+		width: 85%;
+		padding: 3.2rem;
+	}
+
+	.cta-email-input {
+		width: 90%;
+		padding: 1.6rem;
+		/* margin: 0 auto 2.4rem; */
+	}
+
+	.btn-cta {
+		width: 90%;
+		font-size: 2rem;
+	}
+
+	.testim-name {
+		font-size: 1.6rem;
+	}
+
+	.testim-role {
+		font-size: 1.4rem;
+	}
 }
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+/* .card-testim-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+} */
+
+/* .social-icon {
+  margin: auto 1.6rem;
+  height: 3.8rem;
+  width: 3.8rem;
+} */
