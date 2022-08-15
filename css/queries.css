@@ -41,7 +41,7 @@
 }
 
 /**************************/
-/* BELOW 944px (Tablets) */
+/* BELOW 944px (Tablets)  */
 /**************************/
 
 @media (max-width: 59em) {
@@ -132,6 +132,7 @@
 
 	.grid--footer {
 		grid-template-columns: 1fr;
+		column-gap: 0rem;
 	}
 
 	.address-text {
@@ -177,7 +178,7 @@
 	}
 
 	.hero-text-box {
-		max-width: 90%;
+		max-width: 80%;
 	}
 
 	.hero-description {
@@ -199,6 +200,7 @@
 
 	.how-heading {
 		width: 95%;
+		text-align: center;
 	}
 
 	.img-quotes {
@@ -212,10 +214,14 @@
 		padding: 3.2rem;
 	}
 
+	.container-cta {
+		width: 80%;
+		padding: 3.2rem 4.8rem;
+	}
+
 	.cta-email-input {
 		width: 90%;
 		padding: 1.6rem;
-		/* margin: 0 auto 2.4rem; */
 	}
 
 	.btn-cta {
@@ -233,16 +239,122 @@
 }
 
 /**************************/
-/* BELOW 544px (Phones) */
+/* BELOW 544px (Phones)   */
 /**************************/
 
-/* .card-testim-text {
-  font-size: 1.6rem;
-  line-height: 1.6;
-} */
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-/* .social-icon {
-  margin: auto 1.6rem;
-  height: 3.8rem;
-  width: 3.8rem;
-} */
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+@media (max-width: 34em) {
+	.header {
+		padding: 0 2.4rem;
+	}
+
+	.logo {
+		height: 3.6rem;
+	}
+
+	.main-nav-list {
+		gap: 1.6rem;
+	}
+
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: 1.6rem;
+	}
+
+	.hero-img {
+		width: 80%;
+		left: 1rem;
+	}
+
+	.hero-text-box {
+		max-width: 91%;
+	}
+
+	.hero-description {
+		max-width: 91%;
+	}
+
+	.btn-hero {
+		padding: 1.6rem 3.2rem;
+		width: 75%;
+		font-size: 2rem;
+	}
+
+	.feature-img,
+	.folder-img {
+		margin-top: 3.2rem;
+		width: 20%;
+	}
+
+	.shield-img {
+		margin-top: 2.4rem;
+		width: 16%;
+	}
+
+	.feature-text {
+		width: 95%;
+		line-height: 1.6;
+	}
+
+	.section-how {
+		padding: 6.4rem 3.2rem;
+	}
+
+	.how-img {
+		width: 95%;
+	}
+
+	.how-text-box {
+		width: 95%;
+		margin-top: 3.2rem;
+	}
+
+	.how-heading {
+		width: 100%;
+		font-size: 2.4rem;
+	}
+
+	.img-quotes {
+		top: 0.2rem;
+		left: 3.9rem;
+	}
+
+	.section-testim {
+		padding: 2.4rem 3.2rem;
+	}
+
+	.card-testim {
+		width: 94%;
+		padding: 2.4rem;
+	}
+
+	.container-cta {
+		width: 86%;
+		padding: 3.2rem;
+		margin-top: 8rem;
+	}
+
+	.cta-email-input {
+		width: 100%;
+	}
+
+	.btn-cta {
+		width: 100%;
+	}
+
+	.footer {
+		padding: 4.8rem 0 6.4rem 3.2rem;
+	}
+
+	.social-icon {
+		height: 3.3rem;
+		width: 3.3rem;
+	}
+}
