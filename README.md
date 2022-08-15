@@ -1,7 +1,5 @@
 # Fylo dark theme landing page
 
-![Design Fylo dark theme landing page](./design/desktop-preview.jpg)
-
 ## Table of contents
 
 - [General info](#general-info)
