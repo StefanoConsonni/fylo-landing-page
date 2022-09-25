@@ -8,7 +8,7 @@
 
 ## General info
 
-A beautiful landing page built for a Tech Company. The page if fully responsive for all screen dimensions. All the images used for the project have been optimized for better performance. I have also added specific favicons for android and apple devices.
+A beautiful landing page built for a Tech Company. The page if fully responsive for all screen sizes. All the images used for the project have been optimized for better performance. I have also added specific favicons for android and apple devices.
 
 ## Demo
 
